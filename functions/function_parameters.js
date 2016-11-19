@@ -9,22 +9,22 @@
 
 function problem1(){
   function exmpl(var x, var y)
-  {
+   {
   	return x+y;
   }
-}
+ }
 
-function problem2(){
-   function exmpl(x, y, z)
-  {
-  	return x*y*z;
+ function problem2(){
+  function exmpl(x, y )
+ {
+   return x*y;
   }
 
-  	var a = 5;
-  	var b = 4;
-  	console.log(exmpl(a, b));
-}
+   var a= 5;
+   var b = 4;
+   console.log(exmpl(a, b));
 
+}
 /**
  *
  * Solution - below is a base64 blob of the solution.
