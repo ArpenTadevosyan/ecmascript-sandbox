@@ -8,7 +8,9 @@
  */
 
 function problem1(){
-  function exmpl(var x, var y)
+var x;
+var y;
+  function exmpl( x,  y)
    {
   	return x+y;
   }
